@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css"> </head>
+
+<body>
+    <div class="container main-container">
+        <div id="calculator">  
+            <h1 class="title"><span class="first-letter">e</span>Calc</h1>
+            <div class="screen">
+                <div class="result">0</div>
+                <div class="operations">0</div>
+            </div>
+            <div class="buttons">
+                <!-- AC CE ( ) -->
+                <!-- 7 8 9 divide 4 5 6 x 1 2 3 - 0 . % + -->
+                <!-- patrat radical egal cat 2randuri-->
+                <button type="button" class="custom-btn clear-buttons" value="AC">AC</button>
+                <button type="button" class="custom-btn clear-buttons" value="CE">CE</button>
+                <button type="button" class="custom-btn" value="(">&#40;</button>
+                <button type="button" class="custom-btn" value=")">&#41;</button>
+                <button type="button" class="custom-btn" value="7">7</button>
+                <button type="button" class="custom-btn" value="8">8</button>
+                <button type="button" class="custom-btn" value="9">9</button>
+                <button type="button" class="custom-btn" value="/">&divide;</button>
+                <button type="button" class="custom-btn" value="4">4</button>
+                <button type="button" class="custom-btn" value="5">5</button>
+                <button type="button" class="custom-btn" value="6">6</button>
+                <button type="button" class="custom-btn" value="*">&times;</button>
+                <button type="button" class="custom-btn" value="1">1</button>
+                <button type="button" class="custom-btn" value="2">2</button>
+                <button type="button" class="custom-btn" value="3">3</button>
+                <button type="button" class="custom-btn" value="-">&minus;</button>
+                <button type="button" class="custom-btn" value="0">0</button>
+                <button type="button" class="custom-btn" value=".">&period;</button>
+                <button type="button" class="custom-btn" value="%">&#37;</button>
+                <button type="button" class="custom-btn" value="+">&#43;</button>
+                <button type="button" class="custom-btn" value="pow">X&sup2;</button>
+                <button type="button" class="custom-btn" value="^">&radic;</button>
+                <button type="button" class="custom-btn equal-btn" value="=">&equals;</button>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

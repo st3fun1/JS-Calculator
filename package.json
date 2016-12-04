@@ -1,0 +1,18 @@
+{
+  "name": "app.js",
+  "version": "0.0.1",
+  "description": "basic calculator made with Jquery",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calc"
+  ],
+  "author": "Stefan",
+  "license": "ISC"
+}
